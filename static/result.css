@@ -1,0 +1,60 @@
+:root {
+  --danger: #d7263d;   /* Risk color */
+  --safe: #1cbf73;     /* Safe color */
+  --calm: #e0f4ff;     /* Background */
+  --glass: rgba(255, 255, 255, 0.95);
+}
+
+body {
+  background-color: var(--calm);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 30px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.card {
+  background: var(--glass);
+  border-radius: 20px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+  padding: 30px;
+  width: 100%;
+  max-width: 450px;
+  text-align: center;
+}
+
+h4 {
+  color: var(--safe);
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+p {
+  color: #333;
+  font-size: 1.1rem;
+}
+
+canvas {
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+.btn-outline-primary {
+  width: 100%;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+.legend-labels {
+  display: flex;
+  justify-content: space-around;
+  font-size: 0.9rem;
+  margin-top: 15px;
+}
+
+.legend-labels span {
+  display: inline-block;
+  margin-right: 8px;
+}
